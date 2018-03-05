@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router basename='/~s86xu'>
           <Switch>
             <Redirect exact from='/' to='/Home'/>
             <Route path='/Home' component={Homepage}/>
